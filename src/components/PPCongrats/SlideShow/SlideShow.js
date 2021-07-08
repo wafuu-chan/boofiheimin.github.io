@@ -47,6 +47,7 @@ const BaseSlide = styled.span`
   background-size: cover;
   background-position: center;
   background-attachment: ${isMobile ? "scroll" : "fixed"};
+  -webkit-backface-visibility: hidden;
 `;
 
 const PicSlide = styled(BaseSlide)`
